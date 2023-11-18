@@ -1,0 +1,19 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+parts:
+- caption: Getting started
+  chapters:
+    - file: getting_started/markdown
+    - file: getting_started/notebooks
+    - file: getting_started/markdown-notebooks
+- caption: Resources
+  chapters:
+    - file: tools/gitting
+    - file: tools/eeg_preproc
+    - file: tools/fmri_preproc
+- caption: Teaching
+  chapters:
+    - file: teaching/podcasts
